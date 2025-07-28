@@ -1,8 +1,9 @@
 # cfst-ddns-update
 cfst优选后自动更新DNS记录
+
 请先了解上游项目https://github.com/XIU2/CloudflareSpeedTest
 
-脚本，用于：
+脚本：
 
 * 使用 CloudflareSpeedTest (`cfst`) 进行网络测速
 * 提取最佳测试 IP
