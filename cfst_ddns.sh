@@ -2,7 +2,7 @@
 # =====================================================================
 # CloudflareSpeedTest 自动 DDNS 更新脚本
 # Author: AI
-# Description: 检查依赖，仅在缺失时提示，运行 cfst 进行测速，提取最优 IP 并更新 Cloudflare DNS A/AAAA 记录
+# Description: 运行 cfst 进行测速，提取最优 IP 并更新 Cloudflare DNS A/AAAA 记录
 # Platform: Debian / Ubuntu
 # =====================================================================
 
@@ -54,7 +54,7 @@ CFST_PARAMS=(
   -tlr 0.2   # 丢包率上限
   -sl 20     # 下载速度下限 (MB/s)
   -p 5       # 显示结果数量
-  -url https://speedtest.xxxx.xyz/200m  # 测速地址
+#  -url https://speedtest.xxxx.xyz  # 测速地址
   -cfcolo SJC,LAX,SEA  # 指定地区
 )
 
