@@ -103,7 +103,7 @@ sudo systemctl enable --now cfst_ddns.timer
 
 ## 许可协议
 
-本项目采用 MIT3.0 许可，详见 [LICENSE](LICENSE)。
+本项目禁止商用， 详见 [LICENSE](LICENSE)。
 
 ---
 
